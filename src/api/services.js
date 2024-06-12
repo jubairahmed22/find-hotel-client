@@ -53,7 +53,7 @@ export const updateHome = async homeData => {
 
 // Delete a home
 export const deleteHome = async id => {
-  const response = await fetch(`http://localhost:8000/home/${id}`, {
+  const response = await fetch(`http://localhost:8000557/home/${id}`, {
     method: 'DELETE',
     headers: {
       'content-type': 'application/json',
