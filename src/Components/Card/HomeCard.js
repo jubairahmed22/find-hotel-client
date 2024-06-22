@@ -16,13 +16,13 @@ const HomeCard = ({ home }) => {
         />
       </Link>
       <div className='mt-4'>
-        <h3 className='text-gray-500 text-xs tracking-widest title-font mb-1'>
+        <h3 className='text-hex-99 text-3xl font-marcellus mb-1'>
           {home?.location}
         </h3>
         <h2 className='text-gray-900 title-font text-lg font-medium'>
           {home?.title}
         </h2>
-        <p className='mt-1'>${home?.price} per person</p>
+        <p className='mt-1 font-jost'><span className=' font-jost  text-2xl text-hex-99 '>${home?.price}</span> per person</p>
         <div className='flex mt-1'>
           <StarIcon className='h3 w-3 text-green-500' />
           <StarIcon className='h3 w-3 text-green-500' />

@@ -26,7 +26,7 @@ const Home = () => {
   }, [])
 
   return (
-    <div className='md:flex justify-center gap-10 px-6 md:px-10 lg:px-20 bg-gray-200'>
+    <div className='md:flex justify-center gap-10 px-6 md:px-10 lg:px-20  bg-hex-142'>
 
       {loading ? (
         <Spinner />
